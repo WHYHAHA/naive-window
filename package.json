@@ -1,0 +1,79 @@
+{
+  "name": "pig_webportal",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve --mode development",
+    "build": "vue-cli-service build",
+    "build:dev": "vue-cli-service build --mode development",
+    "build:test": "vue-cli-service build --mode test",
+    "build:prod": "vue-cli-service build --mode prod",
+    "build:uat": "vue-cli-service build --mode uat",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "axios": "^0.21.1",
+    "core-js": "^3.12.1",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-vue": "^7.0.0",
+    "less": "^4.1.1",
+    "less-loader": "^7.3.0",
+    "next": "^12.0.7",
+    "nprogress": "^0.2.0",
+    "particles.vue3": "^1.22.1",
+    "store": "^2.0.12",
+    "vue": "^3.2.26",
+    "vue-i18n": "^9.2.0-beta.23",
+    "vue-router": "^4.0.8",
+    "vuex": "^4.0.0-0"
+  },
+  "devDependencies": {
+    "@vicons/antd": "^0.11.0",
+    "@vicons/carbon": "^0.11.0",
+    "@vicons/fa": "^0.11.0",
+    "@vicons/fluent": "^0.11.0",
+    "@vicons/ionicons4": "^0.11.0",
+    "@vicons/ionicons5": "^0.11.0",
+    "@vicons/material": "^0.11.0",
+    "@vicons/tabler": "^0.11.0",
+    "@vue/cli-plugin-babel": "~4.5.0",
+    "@vue/cli-plugin-eslint": "~4.5.0",
+    "@vue/cli-plugin-router": "~4.5.0",
+    "@vue/cli-plugin-vuex": "~4.5.0",
+    "@vue/cli-service": "~4.5.0",
+    "@vue/compiler-sfc": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "cross-env": "^7.0.3",
+    "eslint": "^6.7.2",
+    "font-awesome": "^4.7.0",
+    "naive-ui": "^2.27.0",
+    "prettier": "2.6.2",
+    "uglifyjs-webpack-plugin": "^2.2.0",
+    "vfonts": "^0.1.0",
+    "webpack-bundle-analyzer": "^4.5.0"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true
+    },
+    "extends": [
+      "plugin:vue/vue3-essential",
+      "eslint:recommended"
+    ],
+    "parserOptions": {
+      "parser": "babel-eslint"
+    },
+    "rules": {
+      "no-debugger": "off",
+      "no-console": "off"
+    }
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}

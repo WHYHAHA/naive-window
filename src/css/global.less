@@ -1,0 +1,44 @@
+@blue: #4b8de4;
+@primary-color: #4b8de4;
+@primary-2: #aaffff;
+@primary-3: #55ffff;
+
+.Filter(@val) {
+  -webkit-filter: @val;
+  -moz-filter: @val;
+  -o-filter: @val;
+  -ms-filter: @val;
+}
+
+@titleHeight: 30px;
+/**标题栏高度**/
+@taskHeight: 40px;
+/**任务栏高度**/
+@taskbackground: rgba(255, 255, 255, 0.4); //#f9f9f9;/**任务栏颜色**/
+/**标题栏高度**/
+@timeBox: 150px;
+
+// 所有设置选中table td的颜色
+.tr-select td {
+  background: #f0fff0 !important;
+}
+
+
+// table上方模块样式
+.tabHeader {
+  border: 1px solid rgba(239, 239, 245, 1);
+  border-bottom: 0;
+  padding: 12px 16px;
+  background-color: #fafafc;
+  font-size: 16px;
+  font-weight: bold;
+  width: 100%;
+}
+
+.animation-faster-plus {
+  --animate-duration: 0.5s;
+}
+
+.animation-faster-pro {
+  --animate-duration: 0.2s;
+}
